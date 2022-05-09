@@ -31,5 +31,8 @@
     "morgan": "^1.10.0",
     "ulid": "^2.3.0",
     "winston": "^3.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
