@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "",
   "main": "server.js",
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
+  },
   "scripts": {
     "start": "ENTORNO=produccion node ./src/server.js",
     "dev": "ENTORNO=desarrollo nodemon ./src/server.js"
